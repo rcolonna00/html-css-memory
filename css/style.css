@@ -7,60 +7,76 @@
 /*GENERAL*/
 body{
     font-family: "Nerko One", Arial, Helvetica;
+    background-color: rgb(96, 190, 245);
 }
 
 .contenitore{
     width: 65%;
     margin: auto;
     text-align: center;
-
-    /*test*/
-    background-color: rgb(96, 190, 245);
 }
 
-.carta img{
+img{
     width: 100%;
-    display: none;
 }
 
-.carta:hover{
-    background-image: none;
-}
-
-.carta:hover img{
-    display:block;
-}
-
+/*HEADER*/
 h1{
     padding: 10px;
     font-size: 80px;
     color: white;
 }
-/*FINE GENERAL*/
-
+/*FINE HEADER*/
 
 /*MAIN*/
+.riga{
+    font-size: 25px;
+    color: orange;
+}
+
 .carta{
     width: 20%;
     height: 200px;
+    background-color: white;
     display: inline-block;
-    margin: 10px;
-    border-radius: 10px;
+    margin: 5px;
+    border-radius: 5px;
     overflow: hidden;
-    background-image: url(../img/sfondo.png);
+    background-image:url(../img/sfondo.png);
     background-size: contain;
-    position: relative;
-    /*test*/
-    background-color:white;
 }
 
-div #attivo{
-    display:block;
+.carta img{
+    display: none;
+}
+
+.carta span{
+    display: none;
+}
+
+.carta:hover {
     background-image: none;
-    color: orange;
+}
+
+.carta:hover img{
+    display: block;
+}
+
+.carta:hover span{
+    display: block;
+}
+
+#attivo{
+   background-image: none;
+   color: red;
+}
+
+#attivo img{
+    display: block;
+}
+.seconda {
+    display: block;
+
 }
 /*FINE MAIN*/
 
-/*FOOTER*/
-
-/*FINE FOOTER*/
