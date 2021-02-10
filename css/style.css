@@ -3,3 +3,34 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
+/*GENERAL*/
+
+body{
+    font-family: "Nerko One", Arial, Helvetica;
+}
+
+.contenitore{
+    width: 65%;
+    margin: auto;
+    text-align: center;
+
+    /*test*/
+    background-color: lightcoral;
+}
+/*FINE GENERAL*/
+
+/*MAIN*/
+
+.carta{
+    width: 20%;
+    height: 200px;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 10px;
+
+    /*test*/
+    background-color: green;
+}
+/*FINE MAIN*/
+
