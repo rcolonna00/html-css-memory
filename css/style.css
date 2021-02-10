@@ -30,6 +30,12 @@ body{
 .carta:hover img{
     display:block;
 }
+
+h1{
+    padding: 10px;
+    font-size: 80px;
+    color: white;
+}
 /*FINE GENERAL*/
 
 
@@ -43,10 +49,18 @@ body{
     overflow: hidden;
     background-image: url(../img/sfondo.png);
     background-size: contain;
+    position: relative;
     /*test*/
     background-color:white;
 }
 
-
+div #attivo{
+    display:block;
+    background-image: none;
+    color: orange;
+}
 /*FINE MAIN*/
 
+/*FOOTER*/
+
+/*FINE FOOTER*/
